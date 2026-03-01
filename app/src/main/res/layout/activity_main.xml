@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="#051408">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Herramientas"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnEjercicio1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Promedio Estudiante"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#43A047"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnEjercicio2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cálculo de Salario"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#43A047"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnEjercicio3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Básica"
+        android:backgroundTint="#43A047"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
